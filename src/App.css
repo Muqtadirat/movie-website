@@ -1,3 +1,65 @@
+/* Style the FeaturedMovies container */
+.FeaturedMovies {
+  margin-top: 20px;
+}
+
+/* Style the FeaturedMovies heading */
+.FeaturedMovies h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Style the MovieCard within the FeaturedMovies */
+.FeaturedMovies .MovieCard {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the movie poster image */
+.FeaturedMovies .MovieCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the movie title */
+.FeaturedMovies .MovieCard h2 {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Style the movie overview text */
+.FeaturedMovies .MovieCard p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* MovieCard.css */
+.MovieCard {
+  /* Add custom styles for the card */
+  max-width: 250px; /* Set the maximum width for responsiveness */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.MovieCard img {
+  /* Add custom styles for the card image */
+  max-height: 400px; /* Adjust the max height as needed */
+  object-fit: cover;
+}
+
+.MovieCard .card-title {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+.MovieCard .card-text {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
 .App {
   text-align: center;
 }
